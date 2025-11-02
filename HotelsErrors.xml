@@ -1,39 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Hotel>
-  <Hotel>
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address>
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<!-- root should be Hotels, not Hotel -->
+	<Hotel Rating="4.2" NearestAirport="Sky Harbor">
+		<!--missing required attribute Name -->
+		<Phone>480-968-8885</Phone>
+		<!--  missing second Phone element -->
+		<Address>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<!-- no closing tag for Address Zip -->
+			<Zip>85281</Zip>
     </Address>
-  </Hotel>
-  <Hotel>
-    <Name>Hilton Phoenix Airport</Name>
-    <Address>
-      <Number>2435</Number>
-      <Street>S 47th St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85034</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Marriott Tempe</Name>
-    <Name>Marriott Tempe Downtown</Name>
-    <Phone>480-966-2000</Phone>
-    <Phone>888-236-2427</Phone>
-    <Address>
-      <Number>2101</Number>
-      <Street>E Broadway Rd
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
-    </Address>
-  </Hotel>
+	</Hotel>
+
+	<!--two Name elements for same hotel -->
+	<Hotel Name="Hilton Garden Inn" Rating="4.1">
+		<Phone>480-966-7000</Phone>
+		<Address>
+			<Number>2102</Number>
+			<Street>E Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Name>Duplicate Name Error</Name>
+	</Hotel>
+
 </Hotel>
