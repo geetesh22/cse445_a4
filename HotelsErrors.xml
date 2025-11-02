@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.2">
+<Hotel>
+  <Hotel>
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -21,7 +21,6 @@
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85034</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
   <Hotel Rating="4.0">
