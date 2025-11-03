@@ -4,25 +4,30 @@
             targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
+  
   <xsd:annotation>
     <xsd:documentation xml:lang="en">
-      Hotels Directory Schema - Modeled after Courses.xsd structure
+      Hotels Directory Schema
     </xsd:documentation>
   </xsd:annotation>
+  
   <xsd:element name="Hotels" type="HotelsType"/>
+  
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
       <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
     </xsd:sequence>
   </xsd:complexType>
+  
   <xsd:complexType name="HotelType">
     <xsd:sequence>
       <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-      <xsd:element name="Phone" type="xsd:string" minOccurs="2" maxOccurs="unbounded"/>
+      <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
       <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
     </xsd:sequence>
     <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
   </xsd:complexType>
+  
   <xsd:complexType name="AddressType">
     <xsd:sequence>
       <xsd:element name="Number" type="xsd:string"/>
@@ -30,7 +35,8 @@
       <xsd:element name="City" type="xsd:string"/>
       <xsd:element name="State" type="xsd:string"/>
       <xsd:element name="Zip" type="xsd:string"/>
+      <xsd:element name="NearestAirport" type="xsd:string" minOccurs="0" maxOccurs="1"/>
     </xsd:sequence>
-    <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
   </xsd:complexType>
+  
 </xsd:schema>
