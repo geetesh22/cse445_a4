@@ -8,14 +8,16 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.5">
     <Name>Hilton Phoenix Airport</Name>
     <Phone>480-894-1600</Phone>
@@ -28,6 +30,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel>
     <Name>Marriott Tempe</Name>
     <Phone>480-966-2000</Phone>
@@ -40,6 +43,7 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.0">
     <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
@@ -52,6 +56,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.3">
     <Name>Renaissance Phoenix Downtown</Name>
     <Phone>602-333-0000</Phone>
@@ -64,6 +69,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.1">
     <Name>Hyatt Regency Scottsdale</Name>
     <Phone>480-444-1234</Phone>
@@ -76,6 +82,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel>
     <Name>Embassy Suites Phoenix Airport</Name>
     <Phone>602-957-1910</Phone>
@@ -89,6 +96,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.4">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
@@ -100,6 +108,7 @@
       <Zip>85251</Zip>
     </Address>
   </Hotel>
+  
   <Hotel Rating="3.8">
     <Name>Courtyard Phoenix Mesa</Name>
     <Phone>480-461-3000</Phone>
@@ -111,6 +120,7 @@
       <Zip>85210</Zip>
     </Address>
   </Hotel>
+  
   <Hotel Rating="4.6">
     <Name>JW Marriott Desert Ridge</Name>
     <Phone>480-293-5000</Phone>
@@ -124,6 +134,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+  
   <Hotel>
     <Name>Hampton Inn Phoenix Airport</Name>
     <Phone>480-831-7700</Phone>
@@ -136,4 +147,5 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
+
 </Hotels>
