@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://venus.sod.asu.edu/WSRepository/xml"
-        xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
-
+<Hotels>
   <Hotel Rating="3.3">
     <Name>Motel 6</Name>
     <Phone>480-968-8885</Phone>
