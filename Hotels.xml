@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
+
   <Hotel Rating="3.3">
     <Name>Motel 6</Name>
     <Phone>480-968-8885</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>5315</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85008</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
